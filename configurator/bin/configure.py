@@ -132,6 +132,8 @@ def interactive(args):
     ).add(
         'CMS_HOST', "Your website domain name for teachers (CMS).", 'studio.' + configurator.get('LMS_HOST')
     ).add(
+        'LMS_PREVIEW_HOST', "Your website domain name for the preview functionality in the CMS", 'preview.' + configurator.get('LMS_HOST')
+    ).add(
         'PLATFORM_NAME', "Your platform name/title", "My Open edX"
     ).add(
         'CONTACT_EMAIL', "Your public contact email address", 'contact@' + configurator.get('LMS_HOST')

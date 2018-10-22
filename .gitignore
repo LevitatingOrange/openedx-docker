@@ -2,3 +2,4 @@
 config/
 data-*/
 TODO
+.DS_Store
